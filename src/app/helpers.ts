@@ -1,7 +1,11 @@
+const monthNames = [
+  'January', 'February', 'March',
+  'April', 'May', 'June', 'July',
+  'August', 'September', 'October',
+  'November', 'December'
+];
+
 export const prettyDate = (date: Date): string =>
-  new Date(date)
-    .toString()
-    .split(' ')
-    .slice(0, 4)
-    .join(' ')
-    .replace(/( \d+)$/, ',$1');
+  date.getDate() + ' ' +
+  monthNames[date.getMonth()] + ' ' +
+  date.getFullYear();

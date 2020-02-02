@@ -1,4 +1,14 @@
-<div *ngFor="let post of posts">
-  <h2>{{ post.title }}</h2>
-  <h3>{{ prettifyDate(post.date) }} by {{ post.author }}</h3>
+<div class="blog-hero">
+  <h1 class="blog-title">Blog</h1>
+  <h4>{{ posts.length }} posts</h4>
+</div>
+<div class="cards">
+  <div class="card" *ngFor="let post of posts">
+    <img class="card-image" src="{{ post.url }}" />
+    <div class="card-details">
+      <span class="post-date">{{ prettifyDate(post.date) }}</span>
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.description }}</p>
+    </div>
+  </div>
 </div>

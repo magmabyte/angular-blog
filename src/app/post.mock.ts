@@ -6,14 +6,14 @@ const longText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
 export const Posts: Post[] = [
   { id: 0, title: 'Hustler', url: 'assets/awesome.png', author: 'Maximilian Brehm',
     date: new Date(2020, 2, 1),
-    description: shortDescription, text: longText },
+    description: shortDescription, textUrl: 'assets/hustler.md' },
   { id: 1, title: 'A normal day', url: 'assets/awesome.png', author: 'Maximilian Brehm',
     date: new Date(2020, 2, 1),
-    description: shortDescription, text: longText },
+    description: shortDescription, textUrl: 'assets/hustler.md' },
   { id: 2, title: 'Outer sunset', url: 'assets/awesome.png', author: 'Maximilian Brehm',
     date: new Date(2020, 2, 1),
-    description: shortDescription, text: longText },
+    description: shortDescription, textUrl: 'assets/hustler.md' },
   { id: 3, title: 'Another life', url: 'assets/awesome.png', author: 'Maximilian Brehm',
     date: new Date(2020, 2, 1),
-    description: shortDescription, text: longText },
+    description: shortDescription, textUrl: 'assets/hustler.md' },
 ];

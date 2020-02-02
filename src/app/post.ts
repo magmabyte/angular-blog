@@ -5,5 +5,5 @@ export class Post {
   author: string;
   date: Date;
   description: string;
-  text: string;
+  textUrl: string;
 }

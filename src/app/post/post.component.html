@@ -2,4 +2,4 @@
 <span class="post-date">{{ prettifyDate(post.date) }}</span>
 <h2>{{ post.title }}</h2>
 <p>{{ post.description }}</p>
-<p>{{ post.text }}</p>
+<markdown [src]="post.textUrl"></markdown>

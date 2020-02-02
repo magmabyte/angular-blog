@@ -1,4 +1,4 @@
 <div *ngFor="let post of posts">
   <h2>{{ post.title }}</h2>
-  <h3>{{ post.date }} by {{ post.author }}</h3>
+  <h3>{{ prettifyDate(post.date) }} by {{ post.author }}</h3>
 </div>

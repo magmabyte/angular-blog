@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Post } from '../post';
 import { BlogService } from '../blog.service';
+import { prettyDate } from '../helpers';
 
 @Component({
   selector: 'app-blog-feed',
@@ -19,4 +20,7 @@ export class BlogFeedComponent implements OnInit {
         .subscribe(posts => this.posts = posts);
   }
 
+  prettifyDate(date: Date): string {
+    return prettyDate(date);
+  }
 }

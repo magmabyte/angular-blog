@@ -4,4 +4,4 @@ export const prettyDate = (date: Date): string =>
     .split(' ')
     .slice(0, 4)
     .join(' ')
-    .replace(/( \d+)$/, ',$1')
+    .replace(/( \d+)$/, ',$1');

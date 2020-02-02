@@ -15,7 +15,7 @@ export class BlogService {
     return of(Posts);
   }
 
-  get_by_index(i: number): Observable<Post> {
-    return of(Posts[i]);
+  getById(id: number): Observable<Post> {
+    return of(Posts.find(post => post.id === id));
   }
 }

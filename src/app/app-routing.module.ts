@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BlogFeedComponent } from './blog-feed/blog-feed.component';
 
+import { BlogFeedComponent } from './blog-feed/blog-feed.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/feed', pathMatch: 'full' },

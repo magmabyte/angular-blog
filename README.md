@@ -1,4 +1,8 @@
-# BlogAngular
+# Blog
+
+A blog I developed to learn about Angular. It's a single page app and should be built before being deployed on a webserver, e.g., Firebase. See the instructions below to see how.
+
+## Note
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+
 import { BlogService } from '../blog.service';
 import { Post } from '../post';
 import { prettyDate } from '../helpers';
@@ -14,7 +16,8 @@ export class PostComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private blogService: BlogService
+    private blogService: BlogService,
+    private location: Location
   ) { }
 
   ngOnInit() {
@@ -25,5 +28,9 @@ export class PostComponent implements OnInit {
 
   prettifyDate(date: Date): string {
     return prettyDate(date);
+  }
+
+  goBack(): any {
+    this.location.back();
   }
 }

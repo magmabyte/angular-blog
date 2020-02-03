@@ -2,9 +2,9 @@
 <div class="post-wrapper">
   <div class="post-main">
     <img class="post-image" src="{{ post.url }}" />
+    <h2 class="post-title">{{ post.title }}</h2>
     <span class="post-date">{{ prettifyDate(post.date) }}</span>
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.description }}</p>
+    <p class="post-description">{{ post.description }}</p>
     <markdown [src]="post.textUrl"></markdown>
   </div>
 </div>

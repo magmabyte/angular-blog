@@ -9,6 +9,9 @@ Obviously, there is money in Kenya with companies, expats and Kenya’s middle a
 The problem that I originally identified within my life and that of my friends is “getting small things done that we have no time or no mental space to do”, e.g., hanging up a whiteboard in the apartment, finding out whether a certain product is sold at a store or restocking on water containers.
 
 ### User personas
+
+Let me start by introducing personas of potential users:
+
 #### Tom
 
 ![Tom](assets/pexels-photo-220453.jpeg)
@@ -33,6 +36,7 @@ Whenever faced with a novel problem, Tom and Ann generally choose one of the fol
 3. They spend a lot of time in solving it because of the commute and the time necessary to solve the issue in the end given little experience.
 4. Lastly, when they mention it in a conversation, their friend may provide them with a contact that can solve their issue.
 
+### Value proposition
 Number 4 is essentially the behaviour that inspired the idea for Hustler and what the app needs to successfully replicate and replace. If Tom’s or Ann’s friend refers them to Hustler instead of giving you a contact, then Hustler has made it. If brand awareness is high, then Number 1, 2 and 3 shouldn’t come up anymore, just like Tom and Ann don’t wait for Taxis or walk home but instead order an Uber or Bolt when deciding for personal transport.
 
 ### Hustler personas
@@ -138,12 +142,6 @@ Operating in Kenya since 2016. Focus is on handyman services. They say they have
 ### Others
 
 [Book a Tiger](https://www.bookatiger.com/) from Germany, [E-Butler](https://www.e-butler.com/) from Qatar, and probably many more.
-
-## Business model canvas
-
-Lastly, I also created a business model canvas for my small project.
-
-![Business Model Canvas](assets/bmc.png)
 
 ## Conclusion
 

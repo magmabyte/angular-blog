@@ -1,6 +1,9 @@
 .card-image {
-  height: auto;
-  width: 250px;
+  min-height: 250px;
+  min-width: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .topInfo {

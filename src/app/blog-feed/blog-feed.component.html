@@ -4,7 +4,7 @@
 </div>
 <div class="cards">
   <div class="card" *ngFor="let post of posts" [routerLink]="['/post/', post.id]">
-    <img class="card-image" src="{{ post.url }}" />
+    <div class="card-image" [ngStyle]="{'background-image': 'url(' + post.url + ')'}"></div>
     <div class="card-details">
       <span class="post-date">{{ prettifyDate(post.date) }}</span>
       <h2 class="post-title">{{ post.title }}</h2>

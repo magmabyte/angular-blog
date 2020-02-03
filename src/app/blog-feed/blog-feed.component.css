@@ -3,21 +3,18 @@
   width: auto;
 }
 
-.blog-hero {
+.topInfo {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 100px;
+}
+
+.numPosts {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .post-date {
-  color: #738a94;
-  font-size: 0.8rem;
-  line-height: 1.15em;
-  font-weight: 300;
-  letter-spacing: .5px;
-  text-transform: uppercase;
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -30,7 +27,7 @@ div.cards {
 }
 
 .card {
-  width: 700px;
+  width: 600px;
   display: flex;
 
   overflow: hidden;

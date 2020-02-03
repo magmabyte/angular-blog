@@ -1,6 +1,10 @@
-<button (click)="goBack()">go back</button>
-<img class="card-image" src="{{ post.url }}" />
-<span class="post-date">{{ prettifyDate(post.date) }}</span>
-<h2>{{ post.title }}</h2>
-<p>{{ post.description }}</p>
-<markdown [src]="post.textUrl"></markdown>
+<app-topbar backUrl="/feed"></app-topbar>
+<div class="post-wrapper">
+  <div class="post-main">
+    <img class="post-image" src="{{ post.url }}" />
+    <span class="post-date">{{ prettifyDate(post.date) }}</span>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <markdown [src]="post.textUrl"></markdown>
+  </div>
+</div>

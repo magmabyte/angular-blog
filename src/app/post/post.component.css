@@ -1,0 +1,24 @@
+.post-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.post-main {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+.post-image {
+  width: 70%;
+  min-width: 100px;
+  max-width: 400px;
+  height: auto;
+}

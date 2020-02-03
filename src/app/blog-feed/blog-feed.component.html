@@ -1,6 +1,6 @@
-<div class="blog-hero">
-  <h1 class="blog-title">Blog</h1>
-  <h4>{{ posts.length }} posts</h4>
+<app-topbar topTitle="Feed"></app-topbar>
+<div class="topInfo">
+  <div class="numPosts">{{ posts.length }} posts</div>
 </div>
 <div class="cards">
   <div class="card" *ngFor="let post of posts" [routerLink]="['/post/', post.id]">

@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { BlogFeedComponent } from './blog-feed/blog-feed.component';
 import { PostComponent } from './post/post.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlogFeedComponent,
-    PostComponent
+    PostComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,

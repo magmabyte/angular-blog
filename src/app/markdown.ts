@@ -10,7 +10,6 @@ export function markedOptionsFactory(): MarkedOptions {
   };
 
   renderer.blockquote = (quote: string) => {
-    console.log(quote);
     return '<div style="display: flex; flex-direction: row; justify-content: start"> \
     <div style="min-height: 1px; min-width: 2px; background: rgb(200, 200, 200); margin-right: 5px"></div>\
     <div style="color: grey">' + quote + '</div>\

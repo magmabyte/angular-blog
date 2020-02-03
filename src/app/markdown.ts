@@ -5,7 +5,7 @@ export function markedOptionsFactory(): MarkedOptions {
 
   renderer.image = (href: string, title: string, text: string) => {
     return '<center> \
-      <img src="' + href + '" style="max-width: 300px; max-height: 300px;"> \
+      <img src="' + href + '" style="max-width: 100%; max-height: 100%;"> \
       </center>';
   };
 
